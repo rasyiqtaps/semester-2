@@ -1,4 +1,4 @@
-public class mahasiswaMain25 { 
+public class mahasiswaMain25 {
     public static void main(String[] args) {
 
         mahasiswa25 mhs1 = new mahasiswa25();
