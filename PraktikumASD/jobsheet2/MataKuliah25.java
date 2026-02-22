@@ -1,4 +1,4 @@
-public class MataKuliah25 {
+public class MataKuliah25 { 
     
     String kodeMK;
     String nama;

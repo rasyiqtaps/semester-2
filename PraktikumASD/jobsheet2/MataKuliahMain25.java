@@ -1,4 +1,4 @@
-public class MataKuliahMain25 {
+public class MataKuliahMain25 { 
     public static void main(String[] args) {
         //void kurangiJam void tambahJam void ubahSKS void tampilInformasi
 
