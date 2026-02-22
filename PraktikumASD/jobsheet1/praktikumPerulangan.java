@@ -17,7 +17,7 @@ public class praktikumPerulangan {
 
             } else if (i % 3 == 0){
                 System.out.print("# ");
-            } else if (i % 2 != 1){
+            } else if (i % 2 == 1){
                 System.out.print("* ");
             } else {
                 System.out.print(i + " ");
