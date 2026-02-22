@@ -1,4 +1,4 @@
-public class DosenMain25 {
+public class DosenMain25 { 
     public static void main(String[] args) {
 
         Dosen25 dsn1 = new Dosen25();
