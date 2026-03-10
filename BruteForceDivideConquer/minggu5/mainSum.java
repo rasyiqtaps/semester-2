@@ -15,7 +15,7 @@ public class mainSum {
         }
 
         System.out.println("Total keuntungan menggunakan Bruteforce: " + sm.totalBF());
-        System.out.println("Total keuntungan menggunakan Divide and Conquer: " + sm.totalDC(sm.keuntungan, 0 , elemen-1));
+        System.out.println("Total keuntungan menggunakan Divide and Conquer: " + sm.totalDC(sm.keuntungan, 0 , -1));
     }
 
 }
