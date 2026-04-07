@@ -4,13 +4,11 @@ import java.util.Scanner;
 public class mahasiswaDemo25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Masukkan jumlah mahasiswa: ");
-        int n = sc.nextInt();
-        sc.nextLine();
+        int jumMhs = 5;
         
-        mahasiswaBerprestasi25 list = new mahasiswaBerprestasi25(n); 
+        mahasiswaBerprestasi25 list = new mahasiswaBerprestasi25(5); 
         
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < jumMhs; i++) {
             System.out.println("Mahasiswa ke-" + (i+1));
             System.out.print("NIM: "); String nim = sc.nextLine();
             System.out.print("Nama: "); String nama = sc.nextLine();
@@ -21,18 +19,25 @@ public class mahasiswaDemo25 {
 
         System.out.println("Data mahasiswa sebelum sorting: ");
         list.tampil();
+        //pencarian data sequential
+        System.out.println("-------------------------------------------");
+        System.out.println("pencarian data");
+        System.out.println("-------------------------------------------");
+        System.out.println("Masukan IPK mahasiswa yang dicari: ");
+        System.out.print("IPK: ");
+        double cari = sc.nextDouble();
 
-        System.out.println("Data Mahasiswa setelah sorting berdasarkan IPK (DESC): ");
-        list.bubbleSort();
-        list.tampil();
+        System.out.println("Menggunakan sequential searching: ");
+        double posisi = list.sequentialSearching(cari);
+        int pss = (int)posisi;
+        list.tampilPosisi(cari, pss);        
+        list.tampilDataSearch(cari, pss);
 
-        // Bagian bawah ini tetap sama seperti kode aslimu
-        System.out.println("Data mahasiswa yang sudah terurut menggunakan SELECTION SORT (ASC) ");
-        list.selectionSort();
-        list.tampil();
-
-        System.out.println("Data yang sudah terurur menggunakan INSERTION SORT (ASC) secara DECENDING");
-        list.insertionSort();
-        list.tampil();
+        //melakukan pencarian data Binary
+        System.out.println("Menggunakan Binary searching: ");
+        double posisi2 = list.findBinarySearch(cari, 0, jumMhs-1);
+        int pss2 = (int)posisi2;
+        list.tampilPosisi(cari, pss2);
+        list.tampilDataSearch(cari, pss2);
     }
 }
