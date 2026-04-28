@@ -1,4 +1,4 @@
-package PraktikumASD.jobsheet5;
+package praktikumASD.jobsheet5;
 
 public class sortingMain25 {
     public static void main(String[] args) {

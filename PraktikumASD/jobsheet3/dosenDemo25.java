@@ -1,4 +1,4 @@
-package PraktikumASD.jobsheet3;
+package jobsheet3;
 
 import java.util.Scanner;
 

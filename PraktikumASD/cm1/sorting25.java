@@ -1,4 +1,4 @@
-package PraktikumASD.cm1;
+package cm1;
 
 public class sorting25 {
     int idx = 0;
@@ -100,5 +100,21 @@ public class sorting25 {
         } else { 
             System.out.println("Data " + key + " tidak ditemukan\n");
         }
+    }
+
+    //FOR CASE 6 (INSERTION SORT DATA BUKU DECENDING)
+    public void insertionSortDEC(buku25[] arrBuku) {
+        for (int i = 1; i < arrBuku.length; i++) {
+            buku25 temp = arrBuku[i];
+            int j = i - 1;
+            while (j >= 0 && arrBuku[j].tahunTerbit < temp.tahunTerbit) {
+                arrBuku[j + 1] = arrBuku[j];
+                j--;
+            }
+            arrBuku[j + 1] = temp;
+        }
+        System.out.println("");
+        System.out.println("Setelah diurutkan (Tahun Terbit Terbaru)");
+        tampilBk(arrBuku);
     }
 }

@@ -1,4 +1,4 @@
-package PraktikumASD.jobsheet5;
+package praktikumASD.jobsheet5;
 
 public class dataDosen25 {
     // Inisialisasi array dengan variabel huruf besar

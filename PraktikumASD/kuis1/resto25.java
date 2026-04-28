@@ -1,4 +1,4 @@
-package PraktikumASD.kuis1;
+package praktikumASD.kuis1;
 
 import java.util.Scanner;
 

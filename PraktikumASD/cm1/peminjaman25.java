@@ -1,4 +1,4 @@
-package PraktikumASD.cm1;
+package cm1;
 
 public class peminjaman25 {
     mahasiswa25 mhs;

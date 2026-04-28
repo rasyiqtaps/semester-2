@@ -1,4 +1,4 @@
-package PraktikumASD.jobsheet5;
+package praktikumASD.jobsheet5;
 
 public class mahasiswaBerprestasi25 {
     mahasiswa25 [] listMhs = new mahasiswa25[5];

@@ -1,4 +1,4 @@
-package PraktikumASD.cm1;
+package cm1;
 
 public class buku25 {
     String kodeBuku;
@@ -19,5 +19,3 @@ public class buku25 {
         System.out.println("Tahun Terbit : " + tahunTerbit);
     }
 }
-
-

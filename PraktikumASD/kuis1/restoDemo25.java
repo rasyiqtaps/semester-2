@@ -55,7 +55,7 @@ public class restoDemo25 {
                     resto25.tampilkanPesanan(arrayOfResto);
                     break;
                 case 2:
-                    resto25.    ;
+                    resto25.ubahPesanan(arrayOfResto, sc);
                     break;
                 case 3:
                     resto25.ubahJumlah(arrayOfResto, sc); 

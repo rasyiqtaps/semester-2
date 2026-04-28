@@ -1,12 +1,14 @@
-package PraktikumASD.jobsheet5;
+package praktikumASD.jobsheet5;
 import java.util.Scanner;
 
 public class mahasiswaDemo25 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int jumMhs = 5;
+        System.out.print("Masukan Jumlah mahasiswa: ");
+        int jumMhs = sc.nextInt();
+        sc.nextLine();
         
-        mahasiswaBerprestasi25 list = new mahasiswaBerprestasi25(5); 
+        mahasiswaBerprestasi25 list = new mahasiswaBerprestasi25(jumMhs); 
         
         for (int i = 0; i < jumMhs; i++) {
             System.out.println("Mahasiswa ke-" + (i+1));

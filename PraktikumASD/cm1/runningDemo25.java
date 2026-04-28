@@ -1,4 +1,4 @@
-package PraktikumASD.cm1;
+package cm1;
 
 import java.util.Scanner;
 
@@ -32,7 +32,8 @@ public class runningDemo25 {
             System.out.println("3. Tampilkan Peminjaman");
             System.out.println("4. Urutkan Bedasarkan Denda");
             System.out.println("5. Cari Bedasarkan NIM");
-            System.out.println("6. Keluar");
+            System.out.println("6. Urutkan Bedasarkan Tahun Terbit DEC");
+            System.out.println("7. Keluar");
             System.out.print("Pilih: ");
             int index = sc.nextInt();
             switch (index) {
@@ -62,6 +63,10 @@ public class runningDemo25 {
                 break;
 
                 case 6:
+                counter.insertionSortDEC(arrBuku);
+                break;
+                         
+                case 7:
                 exit = false;
                 break;
 

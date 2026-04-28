@@ -1,4 +1,4 @@
-package PraktikumASD.jobsheet3;
+package praktikumASD.jobsheet3;
 import java.util.Scanner;
 
 public class mataKuliah25 {

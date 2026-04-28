@@ -1,4 +1,4 @@
-package PraktikumASD.jobsheet3;
+package jobsheet3;
 public class dataDosen25 {
     
     public static void dataSemuaDosen(dosen25[] arrayOfDosen) {

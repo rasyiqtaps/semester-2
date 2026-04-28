@@ -1,4 +1,4 @@
-package PraktikumASD.jobsheet1;
+package jobsheet1;
 
 public class praktikumRoyalGarden {
     static int arrayHarga[] = {75000, 50000, 60000, 10000};

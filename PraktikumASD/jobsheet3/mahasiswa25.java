@@ -1,4 +1,4 @@
-package PraktikumASD.jobsheet3;
+package jobsheet3;
 
 public class mahasiswa25 {
     public String nim;
